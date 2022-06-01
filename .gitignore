@@ -1,0 +1,6 @@
+# Usual things to exclude
+.DS_Store
+
+*.Rhistory
+
+*.ipynb_checkpoints
