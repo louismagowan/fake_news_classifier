@@ -21,7 +21,7 @@
 
 
 
-<h3 align="center">15 Years of Women's Tennis Data: Algorithmic Analysis in Mostly Base Python</h3>
+<h3 align="center">Fake News Classification with Keras</h3>
 
 
 <!-- ABOUT THE PROJECT -->
@@ -70,7 +70,7 @@ Don't forget to give the project a star! Thanks again!
 
 LinkedIn- [Louis Magowan](https://www.linkedin.com/in/louismagowan/)
 
-Project Link: [https://github.com/louismagowan/tennis_algorithms](https://github.com/louismagowan/tennis_algorithms)
+Project Link: [https://github.com/louismagowan/fake_news_classifier](https://github.com/louismagowan/fake_news_classifier)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,7 +80,9 @@ Project Link: [https://github.com/louismagowan/tennis_algorithms](https://github
 ## Acknowledgments
 
 * [othneildrew - README template](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
-* [LSE Applied Social Data Science](https://www.lse.ac.uk/study-at-lse/Graduate/degree-programmes-2022/MSc-Applied-Social-Data-Science)
+* [LSE Department of Statistics](https://www.lse.ac.uk/statistics)
+* [Aashrit Ahuja](https://www.linkedin.com/in/aashrit-ahuja-61846b101/)
+* [Alberto Agudo Domínguez](https://www.linkedin.com/in/albertoagudodominguez/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,16 +90,16 @@ Project Link: [https://github.com/louismagowan/tennis_algorithms](https://github
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/louismagowan/tennis_algorithms.svg?style=for-the-badge
-[contributors-url]: https://github.com/louismagowan/tennis_algorithms/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/louismagowan/tennis_algorithms.svg?style=for-the-badge
-[forks-url]: https://github.com/louismagowan/tennis_algorithms/network/members
-[stars-shield]: https://img.shields.io/github/stars/louismagowan/tennis_algorithms.svg?style=for-the-badge
-[stars-url]: https://github.com/louismagowan/tennis_algorithms/stargazers
-[issues-shield]: https://img.shields.io/github/issues/louismagowan/tennis_algorithms.svg?style=for-the-badge
-[issues-url]: https://github.com/louismagowan/tennis_algorithms/issues
-[license-shield]: https://img.shields.io/github/license/louismagowan/tennis_algorithms.svg?style=for-the-badge
-[license-url]: https://github.com/louismagowan/tennis_algorithms/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/louismagowan/fake_news_classifier.svg?style=for-the-badge
+[contributors-url]: https://github.com/louismagowan/fake_news_classifier/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/louismagowan/fake_news_classifier.svg?style=for-the-badge
+[forks-url]: https://github.com/louismagowan/fake_news_classifier/network/members
+[stars-shield]: https://img.shields.io/github/stars/louismagowan/fake_news_classifier.svg?style=for-the-badge
+[stars-url]: https://github.com/louismagowan/fake_news_classifier/stargazers
+[issues-shield]: https://img.shields.io/github/issues/louismagowan/fake_news_classifier.svg?style=for-the-badge
+[issues-url]: https://github.com/louismagowan/fake_news_classifier/issues
+[license-shield]: https://img.shields.io/github/license/louismagowan/fake_news_classifier.svg?style=for-the-badge
+[license-url]: https://github.com/louismagowan/fake_news_classifier/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/louismagowan/
 [product-screenshot]: images/screenshot.png

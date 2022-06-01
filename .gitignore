@@ -4,3 +4,8 @@
 *.Rhistory
 
 *.ipynb_checkpoints
+*__pycache__
+
+# Original Kaggle files
+Fake.csv
+True.csv
