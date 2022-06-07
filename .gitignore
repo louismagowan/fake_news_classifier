@@ -9,3 +9,6 @@
 # Original Kaggle files
 Fake.csv
 True.csv
+
+*.jpeg
+*.png

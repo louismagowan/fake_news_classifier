@@ -1,7 +1,6 @@
 # IMPORTS
 import pandas as pd
 import numpy as np
-import re
 import os
 import matplotlib.pyplot as plt
 
@@ -63,7 +62,12 @@ def prep_text(data,
 
     # Make a joined text column
     df["all_text"] = df.title.str.strip() + " " + df.text.str.strip()
-
+    # Remove certain words associated with information leak
+    df["all_text"] = df["all_text"]\
+                        .str.replace("reuters|true|false|washington|verified|politifact|donald trump|21st century wire",
+                         "", 
+                         case = False, 
+                         regex = True)
     # Rigorous deduplication as there were several duplicates found
     # Drop duplicated text
     if drop_dups_text:

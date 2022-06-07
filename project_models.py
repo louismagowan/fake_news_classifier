@@ -1,17 +1,13 @@
 # IMPORTS
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
-import tensorflow as tf
 from tensorflow.keras.layers import Dense, BatchNormalization, Reshape, Activation
 from tensorflow.keras.layers import Embedding, GRU, Bidirectional
-from tensorflow.keras.regularizers import l1_l2
 from tensorflow.keras import Sequential
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from keras.initializers import Constant
 import spacy
 from sklearn.metrics import f1_score, roc_auc_score
-import project_functions as pf
 
 
 ############ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -196,7 +192,7 @@ def keras_embedding(tokenizer, embedding_dim = 256, maxlen = 500):
 
 def bi_gru(loss = "binary_crossentropy",
                 optimizer = "adam",
-               metrics = ["accuracy"], regularize = False,
+               metrics = ["accuracy"], 
                batch_normalize = False,
                embedding = None,
                maxlen = 500,
@@ -208,17 +204,14 @@ def bi_gru(loss = "binary_crossentropy",
     Creates a GRU model designed to be used with the text data only.
     Can be built with either Keras, SpaCy, GloVe or no embedding.
     Returns a compiled Keras model of a bidirectional GRU (32*2) and 2 Dense layers (256, 1).
-    There are options to include elasticnet regularization and batch normalisation layers too.
+    There is an option to include a batch normalisation layer too.
     ----------------------------------------------------------------------
     loss = str, name of loss function to use
     optimizer = Keras optimizer, set to 'adam' but any optimizer can be passed
     metrics =  list of Keras metrics to use to evaluate with
-    regularize = bool, if True adds elasticnet/l1_l2 regularisation with
-    l1 = 0.01 and l2 = 0.01
     batch_normalize = bool, if True adds batch normalisation between hidden Dense
     and output layer.
-    embedding = None/Keras embedding instance: The type of embedding to use (SpaCy,
-    GloVe, Keras or none).
+    embedding = None/Keras embedding instance: The type of embedding to use (SpaCy or Keras).
     maxlen = int, shape of input (length of sequences)
     hidden_dense_units = int, number of hidden units in the hidden dense layer
     dense_kernel_initializer = str or keras.initializers object for the weights
