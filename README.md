@@ -27,7 +27,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+This project looks at building, training and evaluating neural networks to solve the [fake news classification problem](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) on Kaggle. It uses Python and Keras. 
 
+Gated Recurrent Units (GRUs) are used, along with batch normalization and both spaCy and Keras embedding layers. 
+
+Keras embedded models appear to outperform those with a static spaCy embedding and manage to achieve extremely high test accuracies (99%+).
+
+The run_models.ipynb notebook contains a demo of how code from the two Python files can be used to easily implement the networks needed to solve this task.
+
+<b>Caveat:<b/> The Kaggle dataset is not ideal- there are leakages (that I've tried to remove) and issues around its provenance. However, the papers that produced the dataset are reasonably well cited (~200 citations) on Google Scholar. In any case, this project is presented as more of a fun tutorial/look at how deep learning approaches could be used to solve the problem of fake news identification, rather than any serious, real-world classifier.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -35,9 +43,9 @@
 <!-- CONTACT -->
 ## Contact
 
-LinkedIn- [Louis Magowan](https://www.linkedin.com/in/louismagowan/)
-Medium - [Louis Magowan](https://medium.com/@louismagowan42)
-Project Link: [https://github.com/louismagowan/fake_news_classifier](https://github.com/louismagowan/fake_news_classifier)
+* LinkedIn- [Louis Magowan](https://www.linkedin.com/in/louismagowan/)
+* Medium - [Louis Magowan](https://medium.com/@louismagowan42)
+* Project Link: [https://github.com/louismagowan/fake_news_classifier](https://github.com/louismagowan/fake_news_classifier)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
