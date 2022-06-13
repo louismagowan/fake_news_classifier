@@ -39,6 +39,13 @@ The run_models.ipynb notebook contains a demo of how code from the two Python fi
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Built With
+
+* [Keras](https://keras.io/)
+* [spaCy](https://spacy.io/)
+* [Tensorflow](https://www.tensorflow.org/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
