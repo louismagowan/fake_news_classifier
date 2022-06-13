@@ -35,7 +35,7 @@ Keras embedded models appear to outperform those with a static spaCy embedding a
 
 The run_models.ipynb notebook contains a demo of how code from the two Python files can be used to easily implement the networks needed to solve this task.
 
-<b>Caveat:<b/> The Kaggle dataset is not ideal- there are leakages (that I've tried to remove) and issues around its provenance. However, the papers that produced the dataset are reasonably well cited (~200 citations) on Google Scholar. In any case, this project is presented as more of a fun tutorial/look at how deep learning approaches could be used to solve the problem of fake news identification, rather than any serious, real-world classifier.
+<b>Caveat:</b> The Kaggle dataset is not ideal- there are leakages (that I've tried to remove) and issues around its provenance. However, the papers that produced the dataset are reasonably well cited (~200 citations) on Google Scholar. In any case, this project is presented as more of a fun tutorial/look at how deep learning approaches could be used to solve the problem of fake news identification, rather than any serious, real-world classifier.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
