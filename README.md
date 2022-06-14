@@ -37,7 +37,7 @@ The run_models.ipynb notebook contains a demo of how code from the two Python fi
 
 <b>Caveat:</b> The Kaggle dataset is not ideal- there are leakages (that I've tried to remove) and issues around its provenance. However, the papers that produced the dataset are reasonably well cited (~200 citations) on Google Scholar. In any case, this project is presented as more of a fun tutorial/look at how deep learning approaches could be used to solve the problem of fake news identification, rather than any serious, real-world classifier.
 
-Feel free to check out the Medium article on this [here](https://medium.com/@louismagowan42/fake-news-classification-with-keras-ae2650494f29)
+Feel free to check out the Medium article on this [here](https://medium.com/@louismagowan42)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
